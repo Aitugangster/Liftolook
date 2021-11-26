@@ -1,0 +1,55 @@
+
+
+.revealator-slideup,
+.revealator-slidedown {
+/* Default effect duration */
+  transition: all 500ms;
+}
+/* Fade effect */
+
+.revealator-fade.revealator-within,
+.revealator-fade.revealator-partially-above,
+.revealator-fade.revealator-above {
+  opacity: 1;
+}
+/* Slide up effect */
+.revealator-slideup {
+  transform: translate(0, 50px);
+  opacity: 0;
+}
+.revealator-slideup.revealator-within,
+.revealator-slideup.revealator-partially-above,
+.revealator-slideup.revealator-above {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.revealator-delay1 {
+  transition-delay: 100ms !important;
+}
+.revealator-delay1.revealator-below,
+.revealator-delay1.revealator-partially-below {
+  transition-delay: 0ms !important;
+}
+.revealator-delay2 {
+  transition-delay: 200ms !important;
+}
+.revealator-delay2.revealator-below,
+.revealator-delay2.revealator-partially-below {
+  transition-delay: 0ms !important;
+}
+.revealator-delay3 {
+  transition-delay: 300ms !important;
+}
+.revealator-delay3.revealator-below,
+.revealator-delay3.revealator-partially-below {
+  transition-delay: 0ms !important;
+}
+
+
+*[class^="revealator"] {
+    display: inline-block;
+    height: auto;
+    margin: 0 auto 15px;
+    width: 26%;
+}

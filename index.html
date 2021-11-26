@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="keywords" content="Любимый город - размещение реклам">
+  <meta name="copyright" content="Интернет-решения">
+  <meta name="description" content="Реклама в лифтах жилых домов в Уфе">
+  <title>Любимый город - размещение реклам</title>
+
+  <!-- FAVICON -->
+
+  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/site.webmanifest">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Liftolook">
+  <meta name="application-name" content="Liftolook">
+  <meta name="msapplication-TileColor" content="#d13a52">
+  <meta name="msapplication-config" content="favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- СТИЛИ -->
+	<link rel="stylesheet" href="css/fm.revealator.jquery.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+</head>
+
+<body>
+
+  <!-- МЕНЮ -->
+
+  <header id="header" class="header">
+    <div class="header__container">
+      <div class="header-burger"></div>
+      <a href="javascript:void(0);"><img src="icons/logo.png" alt="Любимый город" class="LOGO"></a>
+      <ul class="menu" id="menu">
+        <li><a class="menu__item" href="#lifty-anchor">Лифты</a></li>
+        <li><a class="menu__item" href="#dostavka-anchor">Фасады</a></li>
+        <li><a class="menu__item" href="#stoimost-anchor">Стоимость</a></li>
+        <li><a class="menu__item" href="#portfolio-anchor">Портфолио</a></li>
+        <li><a class="menu__item" href="#partnery-anchor">Партнеры</a></li>
+        <li><a class="menu__item" href="#contacty-anchor">Контакты</a></li>
+        <li><a href="tel:+79373179312" class="menu__item_number">+7 937 317 93 12</a></li>
+        <li><a href="mailto:rb185@yandex.ru" class="menu__item_mail">rb185@yandex.ru</a></li>
+        <li><a href="https://yandex.ru/maps/?rtext=~53.493289,56.286594&rtt=auto" target="_blank"
+            class="menu__item_mail">Республика Башкортостан, г. Уфа, ул. Заки Валиди, д. 60</a></li>
+      </ul>
+      <div class="phone">
+        <a href="tel:+79373177812" class="phone_img revealator-slideup revealator-delay1 revealator-once"><img src="icons/PHONE.svg" alt="phone" class="phoneico"></a>
+
+        <a href="tel:+79373177812" class="phone_mini"><img src="icons/PHONE_MINI.svg" alt="phone" class="phoneico"></a>
+        <a href="tel:+79373177812" class="phone_number revealator-slideup revealator-delay1 revealator-once">+7 (937) 317-78-12</a>
+        <div class="header-burger__close"></div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ГЛАВНЫЙ БАННЕР -->
+
+  <section class="main">
+    <div class="container">
+      <div class="main__info">
+        <img src="icons/LIFTOLOOK.svg" alt="Liftolook" class="LIFTOLOOK">
+        <p class="main__title ">Реклама в лифтах жилых домов в Уфе</p>
+        <p class="main__title1">от собственника рекламных конструкций</p>
+        <p class="main__title2">размещение во всех районах города</p>
+        <div class="btn" onclick="popup('Отправить заявку');">Отправить заявку</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПЕРВЫЙ СЛАЙДЕР -->
+
+  <section class="slider container" id="lifty-anchor">
+    <p class="title">Преимущества рекламы в лифтах:</p>
+    <div class="regular">
+      <div class="revealator-slideup revealator-once">
+        <div class="slider_item">
+          <img src="icons/LOCATION.svg" alt="location" class="slider__img">
+          <p class="slider__title">Точное месторасположение</p>
+          <p class="slider__description">Целевая аудитория живет вблизи вашей торговой точки</p>
+        </div>
+      </div>
+      <div class="revealator-slideup revealator-delay1 revealator-once">
+        <div class="slider_item">
+          <img src="icons/PROSMOTRY.png" alt="PROSMOTRY" class="slider__img">
+          <p class="slider__title">Большое количество просмотров</p>
+          <p class="slider__description">1 человек увидит объявление минимум 2 раза в сутки и 60 раз в месяц</p>
+        </div>
+      </div>
+      <div class="revealator-slideup revealator-delay2 revealator-once">
+        <div class="slider_item">
+          <img src="icons/STOIMOST.svg" alt="STOIMOST" class="slider__img">
+          <p class="slider__title">Невысокая стоимость</p>
+          <p class="slider__description">1 клиент обойдется вам в 1 копейку</p>
+        </div>
+      </div>
+      <div class="revealator-slideup revealator-delay3 revealator-once">
+        <div class="slider_item">
+          <img src="icons/OKHVAT.svg" alt="OKHVAT" class="slider__img">
+          <p class="slider__title">Широкий охват</p>
+          <p class="slider__description">Рекламу видят все социальные группы населения</p>
+        </div>
+      </div>
+      <div class="revealator-slideup revealator-delay3 revealator-once">
+        <div class="slider_item">
+          <img src="icons/LIKE.svg" alt="LIKE" class="slider__img">
+          <p class="slider__title">100% просмотр объявления</p>
+          <p class="slider__description">Яркую рекламу висящую на уровне глаз не заметить</p>
+        </div>
+      </div>
+      <div>
+        <div class="slider_item">
+          <img src="icons/LIKE.svg" alt="LIKE" class="slider__img">
+          <p class="slider__title">100% просмотр объявления</p>
+          <p class="slider__description">Яркую рекламу висящую на уровне глаз не заметить</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ДЛЯ КОГО ПОДХОДИТ -->
+
+  <section class="dostavka container" id="dostavka-anchor">
+    <p class="title revealator-slideup revealator-once">Для кого подходит:</p>
+    <div class="regular1 " >
+      <div >
+        <div class="dos_block">
+          <div class="dos_block_title">Доставка еды</div>
+          <img src="images/dostavka_img1.jpg" alt="location" class="dos_block_img">
+        </div>
+      </div>
+      <div>
+        <div class="dos_block">
+          <div class="dos_block_title">Фитнес-центры</div>
+          <img src="images/dostavka_img2.jpg" alt="location" class="dos_block_img">
+        </div>
+      </div>
+      <div>
+        <div class="dos_block">
+          <div class="dos_block_title">Розничная торговля</div>
+          <img src="images/dostavka_img3.jpg" alt="location" class="dos_block_img">
+        </div>
+      </div>
+      <div>
+        <div class="dos_block">
+          <div class="dos_block_title">Салоны красоты</div>
+          <img src="images/dostavka_img4.jpg" alt="location" class="dos_block_img">
+        </div>
+      </div>
+      <div>
+        <div class="dos_block">
+          <div class="dos_block_title">Медицинские учреждения</div>
+          <img src="images/dostavka_img5.jpg" alt="location" class="dos_block_img">
+        </div>
+      </div>
+      <div>
+        <div class="dos_block">
+          <div class="dos_block_title">Рестораны и кафе</div>
+          <img src="images/dostavka_img6.jpg" alt="location" class="dos_block_img">
+        </div>
+      </div>
+      <div>
+        <div class="dos_block">
+          <div class="dos_block_title">Торговые центры</div>
+          <img src="images/dostavka_img7.jpg" alt="location" class="dos_block_img">
+        </div>
+      </div>
+      <div>
+        <div class="dos_block">
+          <div class="dos_block_title">Интернет коммуникации</div>
+          <img src="images/dostavka_img8.jpg" alt="location" class="dos_block_img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ВТОРОЙ СЛАЙДЕР -->
+
+  <section class="slider container">
+    <p class="title revealator-slideup revealator-once">Преимущества нашей организации «Любимый город»:</p>
+    <div class="regular">
+      <div class="revealator-slideup revealator-once">
+        <div class="slider_item">
+          <img src="icons/ANTIVANDAL.svg" alt="ANTIVANDAL" class="slider__img">
+          <p class="slider__title">Производство антивандальных конструкций</p>
+          <p class="slider__description">Мгновенное восстановление поврежденных конструкций</p>
+        </div>
+      </div>
+      <div class="revealator-slideup revealator-delay1 revealator-once">
+        <div class="slider_item">
+          <img src="icons/TYPOGRAPHY.svg" alt="TYPOGRAPHY" class="slider__img">
+          <p class="slider__title">Собственная типография</p>
+          <p class="slider__description">Благодаря собственной типографии, заметно удешивляется стоимость рекламы
+          </p>
+        </div>
+      </div>
+      <div class="revealator-slideup revealator-delay2 revealator-once">
+        <div class="slider_item">
+          <img src="icons/LIKE.svg" alt="LIKE" class="slider__img">
+          <p class="slider__title">Индивидуальный подход и условия</p>
+          <p class="slider__description">Составим индивидуальные варианты размещения рекламы и формы охвата</p>
+        </div>
+      </div>
+      <div class="revealator-slideup revealator-delay3 revealator-once">
+        <div class="slider_item">
+          <img src="icons/CHOICE.svg" alt="CHOICE" class="slider__img">
+          <p class="slider__title">Большой выбор</p>
+          <p class="slider__description">Расширенная адресная программа включающая в себя размещение рекламы в
+            домах повышенной комфортности</p>
+        </div>
+      </div>
+      <div class="revealator-slideup revealator-delay3 revealator-once">
+        <div class="slider_item">
+          <img src="icons/MAKET.svg" alt="MAKET" class="slider__img">
+          <p class="slider__title">Разработка макета</p>
+          <p class="slider__description">Разработка индивидуального и продажного макета от профессионального
+            дизайнера</p>
+        </div>
+      </div>
+      <div class="revealator-slideup revealator-delay3 revealator-once">
+        <div class="slider_item">
+          <img src="icons/QUALITY.svg" alt="location" class="slider__img">
+          <p class="slider__title">Гарантии качества</p>
+          <p class="slider__description">Обязательный фотоотчет, техническое обслуживание, защита от порчи</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ФОРМАТЫ -->
+
+  <div class="formats container" id="stoimost-anchor">
+    <div class="title revealator-slideup revealator-once">Форматы:</div>
+
+    <div class="formats-wrapper">
+      <div class="formats-item order-change">
+        <div class="formats-title">Модули:</div>
+        <div class="formats-sizes">
+          <div class="a5 revealator-slideup revealator-once">A5</div>
+          <div class="a4 revealator-slideup revealator-delay1 revealator-once">A4</div>
+          <div class="a4-2 revealator-slideup revealator-delay1 revealator-once"></div>
+          <div class="a3 revealator-slideup revealator-delay2 revealator-once">A3</div>
+          <div class="a6 revealator-slideup revealator-delay3 revealator-once">A6</div>
+          <div class="a6-1 revealator-slideup revealator-delay3 revealator-once"></div>
+          <div class="a5-1 revealator-slideup revealator-delay3 revealator-once"></div>
+          <div class="a5-2 revealator-slideup revealator-delay3 revealator-once"></div>
+          <div class="a4-3 revealator-slideup revealator-delay3 revealator-once"></div>
+          <div class="a4-long revealator-slideup revealator-delay3 revealator-once">A4</div>
+          <div class="bar-left revealator-slidedown revealator-once revealator-once">РЕКЛАМА В ЛИФТАХ ЖИЛЫХ ДОМОВ</div>
+          <div class="bar-right revealator-slidedown revealator-once revealator-once"></div>
+          <div class="a2 revealator-slidedown revealator-once revealator-once">A2</div>
+        </div>
+        <div class="formats-subtitle revealator-slidedown revealator-once revealator-once">Требования:</div>
+        <div class="formats-description">
+          <p>1. Цветовой режим макета - CMYK</p>
+          <p>2. Весь текст должен быть переведен в кривые, либо шрифты должны быть закреплены</p>
+          <p>3. Размер макета 1:1</p>
+        </div>
+      </div>
+
+      <div class="formats-item">
+        <div class="formats-title">Требования к макетам:</div>
+
+        <div class="formats-treb-wrapper ">
+          <div class="formats-treb a2-row revealator-slideup revealator-delay3 revealator-once">
+            <div class="formats-treb-text">Вертикальный</div>
+            <div class="formats-treb-text">А2</div>
+            <div class="formats-treb-text">570*403</div>
+            <div class="formats-treb-text">PDF, TIFF, PSD, CDR, EPS</div>
+          </div>
+
+          <div class="formats-treb a3-row revealator-slideup revealator-delay3 revealator-once">
+            <div class="formats-treb-text">Горизонтальный</div>
+            <div class="formats-treb-text">А3</div>
+            <div class="formats-treb-text">260*403</div>
+            <div class="formats-treb-text">PDF, TIFF, PSD, CDR, EPS</div>
+          </div>
+
+          <div class="formats-treb a4-row revealator-slideup revealator-delay3 revealator-once">
+            <div class="formats-treb-text">Вертикальный</div>
+            <div class="formats-treb-text">А4</div>
+            <div class="formats-treb-text">200*260</div>
+            <div class="formats-treb-text">PDF, TIFF, PSD, CDR, EPS</div>
+          </div>
+
+          <div class="formats-treb a4-long-row revealator-slideup revealator-delay3 revealator-once">
+            <div class="formats-treb-text">Горизонтальный</div>
+            <div class="formats-treb-text">А4</div>
+            <div class="formats-treb-text">130*403</div>
+            <div class="formats-treb-text">PDF, TIFF, PSD, CDR, EPS</div>
+          </div>
+
+          <div class="formats-treb a5-row revealator-slideup revealator-delay3 revealator-once">
+            <div class="formats-treb-text">Горизонтальный</div>
+            <div class="formats-treb-text">А5</div>
+            <div class="formats-treb-text">130*200</div>
+            <div class="formats-treb-text">PDF, TIFF, PSD, CDR, EPS</div>
+          </div>
+
+          <div class="formats-treb a6-row revealator-slideup revealator-delay3 revealator-once">
+            <div class="formats-treb-text">Вертикальный</div>
+            <div class="formats-treb-text">А6</div>
+            <div class="formats-treb-text">98*130</div>
+            <div class="formats-treb-text">PDF, TIFF, PSD, CDR, EPS</div>
+          </div>
+
+          <div class="formats-treb bar-left-row revealator-slideup revealator-delay3 revealator-once">
+            <div class="formats-treb-text">Полоса</div>
+            <div class="formats-treb-text formats-treb-text-null"></div>
+            <div class="formats-treb-text">37*260</div>
+            <div class="formats-treb-text">PDF, TIFF, PSD, CDR, EPS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ТРЕТИЙ СЛАЙДЕР -->
+
+  <section class="slider container" id="portfolio-anchor">
+    <p class="title revealator-slideup revealator-once">Наши работы:</p>
+    <div class="regular2 revealator-slideup revealator-once">
+      <div><img src="images/work_img1.jpg" alt="PHOTO" class="work_img"></div>
+      <div><img src="images/work_img2.jpg" alt="PHOTO" class="work_img"></div>
+      <div><img src="images/work_img3.jpg" alt="PHOTO" class="work_img"></div>
+      <div><img src="images/work_img1.jpg" alt="PHOTO" class="work_img"></div>
+      <div><img src="images/work_img2.jpg" alt="PHOTO" class="work_img"></div>
+      <div><img src="images/work_img3.jpg" alt="PHOTO" class="work_img"></div>
+    </div>
+  </section>
+
+  <!-- РАЗМЕЩЕНИЕ РЕКЛАМЫ -->
+
+  <section class="consult container">
+    <p class="consult_title revealator-slideup revealator-once">Мы размещаем ваши рекламные объявления под <b>специальными антивандальными
+        конструкциями </b> </p>
+    <div class="consult_red revealator-slideup revealator-once">
+      <div class="consult_block">
+        <p class="consult_block_title">Ваша реклама в Уфе</p>
+        <div class="btn btn_white" onclick="popup('Получить консультацию');">Получить консультацию
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ЧЕТВЕРТЫЙ СЛАЙДЕР -->
+
+  <section class="slider container separator" id="partnery-anchor">
+    <p class="title revealator-slideup revealator-once">Партнеры:</p>
+    <div class="regular4">
+      <div>
+        <div class="partner_wrapper">
+          <img src="images/partner1.png" alt="PHOTO" class="partner_img revealator-slideup revealator-delay1 revealator-once">
+        </div>
+      </div>
+      <div>
+        <div class="partner_wrapper">
+          <img src="images/partner2.png" alt="PHOTO" class="partner_img-even revealator-slideup revealator-delay2 revealator-once">
+        </div>
+      </div>
+      <div>
+        <div class="partner_wrapper">
+          <img src="images/partner3.png" alt="PHOTO" class="partner_img revealator-slideup revealator-delay1 revealator-once">
+        </div>
+      </div>
+      <div>
+        <div class="partner_wrapper">
+          <img src="images/partner4.png" alt="PHOTO" class="partner_img-even revealator-slideup revealator-delay2 revealator-once">
+        </div>
+      </div>
+      <div>
+        <div class="partner_wrapper">
+          <img src="images/partner5.png" alt="PHOTO" class="partner_img revealator-slideup revealator-delay1 revealator-once">
+        </div>
+      </div>
+      <div>
+        <div class="partner_wrapper">
+          <img src="images/partner6.png" alt="PHOTO" class="partner_img-even revealator-slideup revealator-delay2 revealator-once">
+        </div>
+      </div>
+      <div>
+        <div class="partner_wrapper">
+          <img src="images/partner7.png" alt="PHOTO" class="partner_img revealator-slideup revealator-delay1 revealator-once">
+        </div>
+      </div>
+      <div>
+        <div class="partner_wrapper">
+          <img src="images/partner8.png" alt="PHOTO" class="partner_img-even revealator-slideup revealator-delay2 revealator-once">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПЯТЫЙ СЛАЙДЕР -->
+
+  <section class="slider container separator" id="contacty-anchor">
+    <p class="title revealator-slideup revealator-once">Отзывы о проделанной работе:</p>
+    <div class="regular5">
+      <div>
+        <a href="images/LETTER1.jpg" data-lightbox="test">
+          <span class="zoomed"></span>
+          <img src="images/LETTER1.jpg" alt="PHOTO" class="letter_img revealator-slideup revealator-once"></a>
+      </div>
+      <div>
+        <a href="images/LETTER2.jpg" data-lightbox="test">
+          <span class="zoomed"></span>
+          <img src="images/LETTER2.jpg" alt="PHOTO" class="letter_img revealator-slideup revealator-delay1 revealator-once"></a>
+      </div>
+      <div>
+        <a href="images/LETTER3.jpg" data-lightbox="test">
+          <span class="zoomed"></span>
+          <img src="images/LETTER3.jpg" alt="PHOTO" class="letter_img revealator-slideup revealator-delay2 revealator-once"></a>
+      </div>
+      <div>
+        <a href="images/LETTER4.jpg" data-lightbox="test">
+          <span class="zoomed"></span>
+          <img src="images/LETTER4.jpg" alt="PHOTO" class="letter_img revealator-slideup revealator-delay3 revealator-once"></a>
+      </div>
+      <div>
+        <a href="images/LETTER5.jpg" data-lightbox="test">
+          <span class="zoomed"></span>
+          <img src="images/LETTER5.jpg" alt="PHOTO" class="letter_img revealator-slideup revealator-delay3 revealator-once"></a>
+      </div>
+      <div>
+        <a href="images/LETTER1.jpg" data-lightbox="test">
+          <span class="zoomed"></span>
+          <img src="images/LETTER1.jpg" alt="PHOTO" class="letter_img"></a>
+      </div>
+      <div>
+        <a href="images/LETTER2.jpg" data-lightbox="test">
+          <span class="zoomed"></span>
+          <img src="images/LETTER2.jpg" alt="PHOTO" class="letter_img"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <img src="images/yes.jpg" alt="accepted" id="alerter">
+
+  <footer class="footer">
+    <div class="footer-up">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__contacts">
+            <a href="https://yandex.ru/maps/?rtext=~53.493289,56.286594&rtt=auto" target="_blank"
+              class="footer__address">Республика Башкортостан, г. Уфа, ул. Заки Валиди, д. 60</a>
+            <a href="tel:+79373179312" class="footer__phone">+7 937 317 93 12</a>
+            <a href="mailto:rb185@yandex.ru" class="footer__mail">rb185@yandex.ru</a>
+          </div>
+          <div class="footer__info">
+            <div class="footer-ogrn">
+              <div class="footer-ogrn__item">ООО «Любимый Город» </div>
+              <div class="footer-ogrn__item">ОГРН 1160280096008</div>
+              <div class="footer-ogrn__item">ИНН 0274917575</div>
+            </div>
+            <div class="footer__questions">Остались вопросы?</div>
+            <div class="footer__request">Отправьте заявку и наши специалисты <b>свяжутся с вами</b></div>
+            <div class="footer-form">
+              <div class="footer-form__number">
+                <input type="tel" class="footer-form__input" name="footer-phone" autocomplete="off" required=""
+                  inputmode="tel">
+                <label class="footer-form__label">Введите номер телефона</label>
+              </div>
+              <div class="footer-form__btn" onclick="fosInputSend();">Отправить</div>
+              <div class="footer-form__null"></div>
+              <a href="https://api.whatsapp.com/send?phone=79174208975" rel="noopener noreferrer" target="_blank"
+                class="footer-form__link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-down container">
+      <a href="http://site-rb.ru" target="_blank" class="footer__logo"><img src="icons/IR-logo.svg"
+          alt="Интернет-решения"></a>
+      <div class="footer__rights">© 2021 ООО Любимый город | Все права защищены</div>
+      <div class="footer__policy">Политика конфиденциальности <span onclick="conf('Пользовательское соглашение');"
+          class="footer-link">(Пользовательское соглашение)</span></div>
+    </div>
+  </footer>
+
+
+  <!-- МОДАЛЬНОЕ ОКНО ЗАЯВКИ -->
+
+  <div class="popup">
+    <div class="popup-main">
+      <div class="popup-close" onclick="closePopup();">
+        <svg id="popup-close" viewBox="0 0 12 12" width="12" height="12">
+          <path
+            d="M1.44659 0.246055C1.11566 -0.0820184 0.579121 -0.0820184 0.248195 0.246055C-0.0827314 0.574129 -0.0827314 1.10604 0.248195 1.43411L4.85378 6L0.248195 10.5659C-0.0827316 10.894 -0.0827316 11.4259 0.248195 11.7539C0.579122 12.082 1.11566 12.082 1.44659 11.7539L6 7.23978L10.5534 11.7539C10.8843 12.082 11.4209 12.082 11.7518 11.7539C12.0827 11.4259 12.0827 10.894 11.7518 10.5659L7.14622 6L11.7518 1.43411C12.0827 1.10604 12.0827 0.574129 11.7518 0.246055C11.4209 -0.0820184 10.8843 -0.0820184 10.5534 0.246055L6 4.76022L1.44659 0.246055Z">
+          </path>
+        </svg>
+      </div>
+      <div class="popup-block">
+        <div class="popup-block__title">Рассчитать стоимость</div>
+        <div class="popup-block__item">
+          <input type="text" class="popup-block__item-input" name="name" autocomplete="off" required="">
+          <label class="popup-block__item-label">Ваше имя</label>
+        </div>
+        <div class="popup-block__item">
+          <input type="tel" class="popup-block__item-input" name="phone" autocomplete="off" required="" inputmode="tel">
+          <label class="popup-block__item-label">Номер телефона</label>
+        </div>
+        <div class="popup-block__item message">
+          <textarea class="popup-block__item-input popup-block__item-textarea" name="text" autocomplete="off"
+            required=""></textarea>
+          <label class="popup-block__item-label">Сообщение</label>
+        </div>
+
+        <div class="popup-politics">
+          <label class="custom-checkbox">
+            <input type="checkbox" checked value="value-1" id="one" onchange="fun1()">
+            <span>Отправляя любую форму на сайте, вы соглашаетесь<br> с <a href="javascript:void(0);"
+                onclick="conf('Название ФОС');">политикой конфиденциальности</a> данного сайта.</span>
+          </label>
+        </div>
+        <div class="btn popup-block__btn" onclick="fosPopupSend();">Отправить</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- МОДАЛЬНОЕ ОКНО ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ -->
+
+  <div class="conf">
+    <div class="conf-main">
+      <div class="conf-close" onclick="closeConf();">
+        <svg id="conf-close" viewBox="0 0 12 12" width="12" height="12">
+          <path
+            d="M1.44659 0.246055C1.11566 -0.0820184 0.579121 -0.0820184 0.248195 0.246055C-0.0827314 0.574129 -0.0827314 1.10604 0.248195 1.43411L4.85378 6L0.248195 10.5659C-0.0827316 10.894 -0.0827316 11.4259 0.248195 11.7539C0.579122 12.082 1.11566 12.082 1.44659 11.7539L6 7.23978L10.5534 11.7539C10.8843 12.082 11.4209 12.082 11.7518 11.7539C12.0827 11.4259 12.0827 10.894 11.7518 10.5659L7.14622 6L11.7518 1.43411C12.0827 1.10604 12.0827 0.574129 11.7518 0.246055C11.4209 -0.0820184 10.8843 -0.0820184 10.5534 0.246055L6 4.76022L1.44659 0.246055Z">
+          </path>
+        </svg>
+      </div>
+      <div class="conf-block">
+        <div class="conf-title">Политика конфиденциальности</div>
+        <div class="conf-description">
+          <p>Пользователь, находясь на сайте https://www.site-rb.ru, в т.ч. на его поддоменах и на всех страницах
+            сайта, принимает настоящее Согласие на обработку персональных данных, размещенное по адресу:
+            https://www.site-rb.ru/politika-konfidentsialnosti/</p>
+          <p>Принятием (акцептом) оферты Согласия является подтверждение факта согласия Пользователя со всеми
+            пунктами Согласия. Пользователь дает свое согласие владельцу/оператору https://www.site-rb.ru на
+            обработку своих персональных данных со следующими условиями:</p>
+          <p>1) Пользователь дает согласие на обработку своих персональных данных, как без использования средств
+            автоматизации, так и с их использованием.</p>
+          <p>2) Согласие дается на обработку следующих персональных данных:</p>
+          <p>— фамилия, имя, отчество;</p>
+          <p>— число, месяц и год рождения;</p>
+          <p>— номер(а) телефона(ов);</p>
+          <p>— адрес(а) электронной почты;</p>
+          <p>— данные учетных записей в интернет-мессенджерах (программы для мгновенного обмена сообщениями между
+            пользователями);</p>
+          <p>— иные данные, предоставляемые пользователем.</p>
+          <p>3) Пользователь дает согласие на передачу (в т.ч. в сторонние сервисы анализа посетителей Google,
+            Яндекс, Mail.ru, Facebook) и обработку своих данных (IP-адрес, предполагаемое географическое
+            положение, возраст, пол, версия браузера, разрешение дисплея, версия операционной системы и
+            вспомогательного программного обеспечения, модель устройства, ресурсы, поисковые системы, фразы,
+            баннеры, с которых был переход на сайт, список посещённых страниц и проведённое время на сайте).</p>
+          <p>4) Целью обработки персональных данных является предоставление пользователю товаров и услуг,
+            проведение рекламных кампаний и маркетинговых исследований, в том числе смс- и email-рассылок.</p>
+          <p>5) Основанием для обработки персональных данных являются:</p>
+          <p>— Конституция Российской Федерации.</p>
+          <p>— Федеральный закон от 27.07.06 № 152-ФЗ «О персональных данных».</p>
+          <p>— Федеральный закон от 13.03.06 № 38-ФЗ «О рекламе».</p>
+          <p>6) В ходе обработки с персональными данными будут совершены следующие действия (операции): сбор,
+            запись, систематизация, накопление, хранение, уточнение (обновление, изменение), извлечение,
+            использование, передача (распространение, предоставление, доступ, публикация), обезличивание,
+            блокирование, удаление, уничтожение.</p>
+          <p>7) Передача персональных данных, скрытых для общего просмотра, третьим лицам не производится, за
+            исключением случаев, предусмотренных законодательством Российской Федерации.</p>
+          <p>8) Пользователь подтверждает, что указанные им персональные данные принадлежат лично ему.</p>
+          <p>9) Персональные данные обрабатываются до ликвидации Портала. Хранение персональных данных
+            осуществляется согласно Федеральному закону №125-ФЗ «Об архивном деле в Российской Федерации» и иным
+            нормативно-правовым актам в области архивного дела и архивного хранения.</p>
+          <p>10) Пользователь согласен на получение информационных сообщений от Портала по электронной почте.</p>
+          <p>11) Сайт вправе продолжить обработку персональных данных без согласия Пользователя при наличии
+            оснований, указанных в пунктах 2 – 11 части 1 статьи 6, части 2 статьи 10 и части 2 статьи 11
+            Федерального закона №152-ФЗ «О персональных данных» от 27.07.2006 г.</p>
+          <p>12) Настоящее согласие является бессрочным, и действует все время до момента прекращения обработки
+            персональных данных, указанных в данном Согласии.</p>
+        </div>
+        <div class="conf-block__btn btn" onclick="closeConf();">Закрыть</div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- КНОПКА ВВЕРХ -->
+
+  <div id="toTop">
+    <img src="icons/UP.svg" alt="UP" class="UP">
+  </div>
+
+  <!-- КНОПКА трубки -->
+
+  <a href="https://api.whatsapp.com/send?phone=79174208975" class="whatsapp-call">
+    <div class="whatsapp-call-icon"></div>
+  </a>
+
+  <!-- СКРИПТЫ -->
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/fm.revealator.jquery.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/conf.js"></script>
+  <script src="js/jquery.inputmask.min.js"></script>
+</body>
+
+</html>

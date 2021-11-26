@@ -1,0 +1,237 @@
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, .7);
+}
+
+.popup-visible {
+  display: flex;
+}
+
+.popup-main {
+  background: #fff;
+  box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+  width: 476px;
+  position: relative;
+}
+
+.popup-close {
+  padding: 10px;
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 10px;
+}
+
+.popup-block {
+  min-height: 573px;
+  padding: 30px 54px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-block__title {
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 23px;
+}
+
+.popup-block__item {
+  width: 100%;
+  height: 59px;
+  margin-bottom: 14px;
+  border: 1px solid #DFDFDF;
+  box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  position: relative;
+}
+
+.message {
+  min-height: 142px;
+  resize: none;
+}
+
+textarea {
+  height: 70%;
+  resize: none;
+}
+
+.popup-block__item-input {
+  width: 90%;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 29px;
+  margin-left: 19px;
+}
+
+.popup-block__item-label {
+  position: absolute;
+  pointer-events: none;
+  font-size: 16px;
+  line-height: 19px;
+  left: 19px;
+  top: 20px;
+  color: #848484;
+  transition: 0.3s;
+}
+
+.popup-block__btn {
+  background: #D13A52;
+  width: 100%;
+  position: relative;
+}
+
+.popup-block__item-input:focus~.popup-block__item-label,
+.popup-block__item-input:not(:focus):valid~.popup-block__item-label {
+  top: 7px;
+  font-size: 14px;
+}
+
+.popup-politics {
+  /*  margin-left: 28px;*/
+  margin-top: 10px;
+  margin-bottom: 27px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.popup-link {
+  text-decoration: underline;
+  color: #D13A52;
+}
+
+/* для элемента input c type="checkbox" */
+.custom-checkbox>input {
+  position: absolute;
+  z-index: -1;
+  cursor: pointer;
+  /*  opacity: 0;*/
+
+}
+
+/* для элемента label, связанного с .custom-checkbox */
+.custom-checkbox>span {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.custom-checkbox>span a {
+  display: contents;
+  align-items: center;
+  color: #D13A52;
+  width: 90%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* создание в label псевдоэлемента before со следующими стилями */
+
+.custom-checkbox>span::before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  border: 1px solid #adb5bd;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 80% 80%;
+}
+
+
+/* стили для активного чекбокса (при нажатии на него) */
+.custom-checkbox>input:not(:disabled):active+span::before {
+  background-color: #D13A52;
+  border-color: #D13A52;
+}
+
+/* стили для чекбокса, находящегося в состоянии checked */
+.custom-checkbox>input:checked+span::before {
+  border-color: #D13A52;
+  cursor: pointer;
+  background-color: #D13A52;
+  background-image: url(../icons/checked.svg);
+}
+
+/*ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ*/
+
+.conf {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 15;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.conf-visible {
+  display: flex;
+}
+
+.conf-main {
+  background: #fff;
+  box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+  width: 60%;
+  position: relative;
+}
+
+.conf-close {
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.conf-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+.conf-title {
+  text-align: center;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 24px;
+}
+
+.conf-block__btn {
+  width: 90%;
+}
+
+.conf-description {
+  overflow: auto;
+  width: 90%;
+  margin-bottom: 20px;
+  height: 600px;
+  padding: 10px;
+  border: solid 1px black;
+}
+
+@keyframes animate {
+  from {
+    top: -320px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
